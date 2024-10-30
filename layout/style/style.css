@@ -124,8 +124,9 @@ body {
   
   .header-links a {
     color: #757575;
-    -webkit-transition: all 0.2s ease-in;
-  }
+    transition: color 0.2s ease-in;
+}
+
   
   .header-links a:hover {
     color: #75ff63 !important;
