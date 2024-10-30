@@ -216,7 +216,7 @@ body {
     font-size: 17.4px;
   }
   
-  /* bouncing arrow */
+  /* flecha saltitante */
   
   .fa-chevron-down {
     color: #63ff7d !important;
@@ -224,9 +224,15 @@ body {
     margin-left: -30px;
     cursor: pointer;
     position: absolute;
-    opacity: 0;
-    -webkit-transition: 1.2s ease;
-  }
+    opacity: 1; /* Inicialize como visível */
+    transform: translateY(0); /* Posição inicial */
+    transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
   
   /* Scroll down indicator (bouncing) */
   
