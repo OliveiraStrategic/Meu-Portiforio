@@ -642,7 +642,7 @@ body {
     animation: 1s blink step-end infinite;
   }
   
-  @keyframes "blink" {
+  @keyframes blink {
     from,
     to {
       color: transparent;
