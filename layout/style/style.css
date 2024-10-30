@@ -662,7 +662,7 @@ body {
     }
   }
   
-  @-webkit-keyframes "blink" {
+  @-webkit-keyframes blink {
     from,
     to {
       color: transparent;
@@ -672,7 +672,7 @@ body {
     }
   }
   
-  @-ms-keyframes "blink" {
+  @-ms-keyframes blink {
     from,
     to {
       color: transparent;
@@ -682,7 +682,7 @@ body {
     }
   }
   
-  @-o-keyframes "blink" {
+  @-o-keyframes blink {
     from,
     to {
       color: transparent;
